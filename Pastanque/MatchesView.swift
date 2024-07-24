@@ -19,7 +19,7 @@ struct MatchesView: View {
                             Text("League: \(match.leagueName)")
                                 .font(.custom(FontStyles.medium, size: FontStyles.normal))
                             Text("Date: \(match.commenceTime)")
-                                .font(.header)
+                                .font(.headline)
                             
                             VStack(alignment: .leading) {
                                 if let homeOdds = match.odds.homeTeam {
